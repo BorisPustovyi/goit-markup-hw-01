@@ -1,0 +1,175 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-text-color: #2196f3;
+    --black-color:#000000;
+    --wighte-color: #ffffff;
+    --background-btn-color:#F5F4FA;
+    --contacts-color:rgba(255, 255, 255, 0.6);
+}
+body {
+	font-family:Roboto, sans-serif;
+    color:var(--primary-text-color);
+	background-color: var(--wighte-color);
+}
+
+.logo {
+	color:var(--black-color);
+}
+.list {
+	list-style: none;
+}
+.deco{
+    text-decoration: none;
+}
+
+.link {
+	color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+	color: var(--accent-text-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+/* --------------------------------------------------------- */
+.header-item .link.current{
+color:var(--accent-text-color)}
+
+.header-mail, .header-tel{
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.header-mail:focus, 
+.header-mail:hover{color:var(--accent-text-color)}
+
+.header-tel:focus,
+.header-tel:hover{color:var(--accent-text-color)}
+/* ------------------------герой-------------------- */
+/* bcg-color для hero-title- демонстр-ный */
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--wighte-color);
+background-color: aquamarine;}
+.hero-button
+{
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    background-color: var(--background-btn-color-);
+    }
+.hero-button:hover,.hero-button:focus{
+    color:var(--wighte-color);
+    background-color:var(--accent-text-color);
+}
+/* -------------------------------------------- */
+.section-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+
+.principles-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-text-color);
+}
+.after-title{
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--title-text-color);
+}
+.position {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+}
+/* ----------------------footer-------------------- */
+.footer {
+    background-color: aquamarine;
+/* добавлен демонстрационно */
+}
+.adress-item {
+font-style:normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.map-item { color:var(--wighte-color)}
+.mail-item,.tel-item  {color:var(--contacts-color)}
+.map-item:hover, .map-item:focus{color:var(--accent-text-color)}
+.mail-item:hover, .mail-item:focus{color:var(--accent-text-color)}
+.tel-item:hover, .mtelitem:focus{color:var(--accent-text-color)}
+/* ---------------portfolio---------------------- */
+
+.button {  
+cursor: pointer;
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.button:hover, .button:focus{
+    color:var(--wighte-color);
+    background-color:var(--accent-text-color);}
+
+.example-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+.filtre-name{
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+}
